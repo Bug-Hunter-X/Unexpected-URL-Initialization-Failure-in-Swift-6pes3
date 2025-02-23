@@ -1,0 +1,3 @@
+This repository demonstrates a common yet easily overlooked bug in Swift's URL initialization.  The `URL(string:)` initializer can return `nil` for strings that appear valid at first glance.  This often stems from subtle issues with character encoding or the presence of unexpected characters within the URL string.
+
+The `bug.swift` file showcases the problematic code, while `bugSolution.swift` offers solutions to mitigate this issue.
